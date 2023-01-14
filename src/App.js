@@ -32,7 +32,9 @@ function App() {
         value={formik.value.email}
         />
         {formik.errors.email ? (
-          <div id="emailError" style={{ color: "red"}}>
+          <div 
+          id="emailError" 
+          style={{ color: "red"}}>
             {formik.errors.email}
           </div>
         ):null}
@@ -46,7 +48,9 @@ function App() {
         value={formik.value.password}
         />
         {formik.errors.password ? (
-          <div id="passwordError" style={{ color: "red"}}>
+          <div 
+          id="passwordError" 
+          style={{ color: "red"}}>
             {formik.errors.password}
           </div>
         ):null}
