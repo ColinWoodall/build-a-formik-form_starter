@@ -1,9 +1,7 @@
 import React from "react";
-// TODO: import useFormik from formik library
 import { useFormik, validateYupSchema } from 'formik';
 
 function App() {
-  // TODO: add a const called formik assigned to useFormik()
   const formik = useFormik({
     initialValues: {
       email: '',
